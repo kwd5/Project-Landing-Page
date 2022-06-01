@@ -1,0 +1,159 @@
+.top {
+    background-color: #1F2937;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.hero {
+    padding: 5px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    background-color: gray;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    max-width: 400px;
+}
+
+.hero-img {
+    background-color: gray;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: -20px;
+}
+
+.subtext, .link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.subtext {
+    margin-bottom: 0px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+
+/* TOP ENDS, MIDDLE BEGINS */
+
+
+
+.middle {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.middle-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 52px;
+}
+
+.mid-img {
+    border: solid blue 3px;
+    border-radius: 10%;
+    padding: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800px;
+    color:#1F2937;
+}
+
+/* MIDDLE ENDS, THIRDQ BEGINS*/
+
+.quote-background {
+    background-color: #E5E7EB;
+}
+
+.thirdQ {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdQ-cont {
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* THIRD Q ENDS, FQ BEGINS */
+
+.blue {
+    background-color: #3882F6;
+    color: white;
+    margin-top: 300px;
+    margin: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.FQ-text {
+    margin: 5px;
+}
+
+#top-text {
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.button {
+    margin: 5px;
+    background-color: 3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    border: solid white 2px;
+    border-radius: 20px;
+    color: white;
+    padding: 6px;
+}
